@@ -1,0 +1,1 @@
+const atomicGroup=()=>({name:"babel-plugin-atomic-group",visitor:{RegexLiteral(e){console.log("src/index.ts:7:16",e.node)},RegExpLiteral(e){console.log("src/index.ts:10:16",e.node)}}});export{atomicGroup,atomicGroup as default};
